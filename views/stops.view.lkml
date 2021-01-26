@@ -13,15 +13,10 @@ view: stops {
     type: string
     sql: ${TABLE}.stop_geom ;;
   }
-
-  dimension: stop_lat {
-    type: number
-    sql: ${TABLE}.stop_lat ;;
-  }
-
-  dimension: stop_lon {
-    type: number
-    sql: ${TABLE}.stop_lon ;;
+  dimension: stop_loc {
+    type:  location
+    sql_latitude: ${TABLE}.stop_lat;;
+    sql_longitude: ${TABLE}.stop_lon;;
   }
 
   dimension: stop_name {
