@@ -18,9 +18,6 @@ explore: routes {}
 
 explore: shapes {}
 
-
-#This is the change I want to commit and then revert
-
 explore: stop_monitoring {
   join: trips {
     type: left_outer
