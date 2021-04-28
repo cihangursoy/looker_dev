@@ -48,20 +48,20 @@ view: trips {
 
   measure: count {
     type: count
-    drill_fields: [detail*]
+    # drill_fields: [detail*]
   }
 
   # ----- Sets of fields for drilling ------
-  set: detail {
-    fields: [
-      trip_id,
-      routes.route_id,
-      routes.route_long_name,
-      routes.route_short_name,
-      shapes.shape_id,
-      stop_monitoring.count,
-      stop_times.count,
-      vehicle_monitoring.count
-    ]
-  }
+  # set: detail {
+  #   fields: [
+  #     trip_id,
+  #     routes.route_id,
+  #     routes.route_long_name,
+  #     routes.route_short_name,
+  #     shapes.shape_id,
+  #     stop_monitoring.count,
+  #     stop_times.count,
+  #     vehicle_monitoring.count
+  #   ]
+  # }
 }
