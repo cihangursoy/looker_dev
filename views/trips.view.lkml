@@ -1,7 +1,6 @@
 view: trips {
   sql_table_name: `looker_dev.trips`
     ;;
-  drill_fields: [trip_id]
 
   dimension: trip_id {
     primary_key: yes
