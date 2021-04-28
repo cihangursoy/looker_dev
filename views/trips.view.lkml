@@ -47,6 +47,10 @@ view: trips {
 
   measure: count {
     type: count
+    link: {
+      label: "Trips"
+      url: "/looks/1"
+    }
     # drill_fields: [detail*]
   }
 
