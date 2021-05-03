@@ -49,7 +49,7 @@ view: trips {
     type: count
     link: {
       label: "Trips"
-      url: "/looks/1"
+      url: "https://dev.looker.gursoycihan.com/looks/1"
     }
     # drill_fields: [detail*]
   }
