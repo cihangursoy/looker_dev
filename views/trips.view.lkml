@@ -52,20 +52,20 @@ view: trips {
       # url: "https://dev.looker.gursoycihan.com/embed/looks/1"
       url: "http://google.com"
     }
-    # drill_fields: [detail*]
+    drill_fields: [detail*]
   }
 
   # ----- Sets of fields for drilling ------
-  # set: detail {
-  #   fields: [
-  #     trip_id,
-  #     routes.route_id,
-  #     routes.route_long_name,
-  #     routes.route_short_name,
-  #     shapes.shape_id,
-  #     stop_monitoring.count,
-  #     stop_times.count,
-  #     vehicle_monitoring.count
-  #   ]
-  # }
+  set: detail {
+    fields: [
+      trip_id,
+      routes.route_id,
+      routes.route_long_name,
+      routes.route_short_name,
+      shapes.shape_id,
+      stop_monitoring.count,
+      stop_times.count,
+      vehicle_monitoring.count
+    ]
+  }
 }
