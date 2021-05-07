@@ -49,8 +49,7 @@ view: trips {
     type: count
     link: {
       label: "Trips"
-      # url: "https://dev.looker.gursoycihan.com/embed/looks/1"
-      url: "http://google.com"
+      url: "https://dev.looker.gursoycihan.com/embed/looks/1"
     }
     drill_fields: [detail*]
   }
