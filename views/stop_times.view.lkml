@@ -2,19 +2,7 @@ view: stop_times {
   sql_table_name: `looker_dev.stop_times`
     ;;
 
-  dimension_group: arrival {
-    type: time
-    timeframes: [
-      raw,
-      time,
-      date,
-      week,
-      month,
-      quarter,
-      year
-    ]
-    sql: ${TABLE}.arrival_time ;;
-  }
+  dimension: arrival_time {}
 
   dimension: arrives_next_day {
     type: yesno
