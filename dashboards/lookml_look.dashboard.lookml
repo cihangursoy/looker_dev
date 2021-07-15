@@ -1,4 +1,4 @@
-- name: add_a_unique_name_1626383772
+- name: LookML Example
   title: Untitled Visualization
   model: cihan_looker_dev
   explore: trips
