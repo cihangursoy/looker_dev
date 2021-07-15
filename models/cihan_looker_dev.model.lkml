@@ -2,6 +2,7 @@ connection: "muni_trips"
 
 # include all the views
 include: "/views/**/*.view"
+include: "/dashboards/*.dashboard"
 
 datagroup: cihan_looker_dev_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
