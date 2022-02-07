@@ -2,6 +2,7 @@ view: fares {
   sql_table_name: `looker_dev.fares`
     ;;
   drill_fields: [fare_id]
+  #test comment
 
   dimension: fare_id {
     primary_key: yes
