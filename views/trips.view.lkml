@@ -1,7 +1,7 @@
 view: trips {
   sql_table_name: `looker_dev.trips`
     ;;
-
+  #test comment
   dimension: trip_id {
     primary_key: yes
     type: string
